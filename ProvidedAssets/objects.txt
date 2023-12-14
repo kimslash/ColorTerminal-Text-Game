@@ -1,0 +1,4 @@
+    chair3 |  C
+    chair |  B 
+    chair |          A
+    chair2 |  A 
