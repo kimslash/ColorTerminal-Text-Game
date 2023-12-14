@@ -1,0 +1,34 @@
+Term Project Summary:
+(I could use a .pdf, but I find this format more fitting)
+
+1. I approached this project with a vague idea of what I wanted to make initially.
+This project did take me a couple days to finish, so I had to work on the structure
+before-hand. First I made a flowchart with what function should call what, that .png
+is in the same directory as this file (It's nowhere near the same as my final
+product, but I used it as a starting point). I also planned to use colorama from the
+very beginning. Now for getting stuck.. it took me a solid few hours to figure out
+how to make objects with classes in Python, since it's not an object-oriented
+language, it was definitely more tricky than usual.
+
+2. Some of these ways might seem a bit similar but they're definitely all unique
+- first I edited the default configs for the objects and rooms, this let me test
+the win sequence way quicker and saved a lot of time!
+- I also tested by providing seemingly invalid data with some of the configs like
+the rooms.txt file and the map_layout. i made a map with only 1 room and 0 neighbors
+for a (now valid) edge-case.
+- I rigorously tested every type of input function to make sure they don't accept any
+invalid inputs or they don't lead the player to any invalid locations
+- I also tested the game with many different PyUnit games, it especially helped with
+the first example as tictactoe.py is easy to finish for debugging.
+- And lastly I made a pyunit test at the very end to test my file processing and
+formatting functions, which all worked out great!
+
+3. With this assignment, and honestly the entire course as a whole, I definitely got
+really used to Python and how its syntax operates. I don't want to go on a long tangent
+but the "Pythonic" way of typing definitely takes some getting used to. I also got to
+know some useful py libraries for future personal projects. If I were to do the book-
+store interface with my current approach I 100% would include it in my portfolio, but
+this game is a little too personal to me, and it includes slight humor that might not
+sound too professional, so I am reluctant to include it.
+
+I also want to thank Eric Lloyd and Salim Khan for a great fall course in CS.
